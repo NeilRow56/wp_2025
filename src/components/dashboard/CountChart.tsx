@@ -22,7 +22,7 @@ const data = [
 
 const CountChart = () => {
   return (
-    <div className='h-full w-full rounded-xl bg-white p-4'>
+    <div className='h-full w-full rounded-xl bg-white p-4 dark:bg-background'>
       {/* TITLE */}
       <div className='flex items-center justify-between'>
         <h1 className='text-lg font-semibold text-orange-600'>Clients</h1>
