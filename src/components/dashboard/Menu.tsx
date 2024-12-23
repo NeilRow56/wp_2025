@@ -34,13 +34,13 @@ const menuItems = [
       {
         icon: '/lesson.png',
         label: 'Working papers',
-        href: '/list/workingPapersFile',
+        href: '/list/working_papers',
         visible: ['admin', 'manager', 'staff']
       },
       {
         icon: '/exam.png',
         label: 'File sections',
-        href: '/list/fileSections',
+        href: '/list/file_sections',
         visible: ['admin', 'manager', 'staff']
       },
       {
