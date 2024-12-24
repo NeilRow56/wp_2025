@@ -35,7 +35,7 @@ const EventCalendar = () => {
   const [date, setDate] = useState<Date | undefined>(new Date())
 
   return (
-    <div className='rounded-md bg-white p-4 dark:bg-background'>
+    <div className='rounded-md bg-slate-100 p-4 dark:bg-background'>
       <Calendar
         mode='single'
         selected={date}
